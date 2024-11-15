@@ -1,7 +1,7 @@
 body {
     background-image: url(assets/nature.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-position: cover;
 }
 

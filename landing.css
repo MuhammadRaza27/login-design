@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{
+    background-image:url(./assets/purple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30%;
+    
+}
+
+nav{
+    background: linear-gradient(blue,rgb(0, 1, 1),purple);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+
+    
+}
+
+.font-effect-fire p {
+    font-family: "sofia", sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+ nav ul {
+    
+    float: right;
+    font-size: 18px;
+    
+    
+
+}
+nav li {
+    
+    list-style: none;
+    display: inline-flex;
+    
+
+}
+nav ul {
+    
+    word-spacing: 90px;
+    padding-left: 10%;
+    
+    
+}
+nav a {
+    
+    text-decoration-line: none;
+    
+}
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(235, 84, 222);
+}
+.header p {
+    color: yellow;
+    font-size: 20px;
+}
+
+.footer {
+    font-size: 30px;
+    padding-top: 40%;
+    color: rgb(209, 197, 213);
+    text-align: center;
+
+}
+table {
+    box-sizing: border-box;
+    padding-left: 50%;
+    
+    
+}

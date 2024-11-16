@@ -30,7 +30,7 @@ body {
     outline: none;
     font-size: 22px;
     border-bottom: 2px solid black;
-    
+
 }
 
 .email input {
@@ -66,11 +66,13 @@ body {
     background-color: rgba(227, 154, 154, 1.0);
 
 }
+
 .notamember {
     margin-top: 40px;
     font-size: 18px;
-    
+
 }
+
 .Signup {
     font-size: 18px;
     font-weight: 1000;

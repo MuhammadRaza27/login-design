@@ -11,6 +11,12 @@ body{
     padding-bottom: 30%;
     
 }
+.container {
+    height: 70px;
+    width: 100%;
+    color: aliceblue;
+}
+
 
 nav{
     background: linear-gradient(blue,rgb(0, 1, 1),purple);
@@ -32,6 +38,7 @@ nav{
     font-weight: 100;
     font-size: 36px;
     cursor: pointer;
+    letter-spacing: 5px;
 }
 
  nav ul {
@@ -75,6 +82,7 @@ a:active{
 .header p {
     color: yellow;
     font-size: 20px;
+    
 }
 
 .footer {

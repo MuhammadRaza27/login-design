@@ -43,11 +43,11 @@ body {
 
 .password input {
     margin-top: 20px;
+    transition-delay: .3ms;
     border: none;
     outline: none;
     font-size: 22px;
     border-bottom: 2px solid black;
-
 
 }
 

@@ -8,13 +8,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 30%;
+    padding-bottom: 25%;
     
-}
-.container {
-    height: 70px;
-    width: 100%;
-    color: aliceblue;
 }
 
 
@@ -24,11 +19,9 @@ nav{
     width: 100%;
     height: 75px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     line-height: 75px;
     padding: 0px 100px;
-    position: fixed;
 
     
 }
@@ -41,65 +34,69 @@ nav{
     letter-spacing: 5px;
 }
 
- nav ul {
-    
-    float: right;
-    font-size: 18px;
-    
-    
-
-}
-nav li {
-    
+.alignitems{
+    display: flex ;
     list-style: none;
-    display: inline-flex;
+    font-size: 18px;
+    border: 0px solid gray;
+    padding-left: 5%;
+    padding-right: 5%;
     
 
 }
-nav ul {
-    
-    word-spacing: 90px;
-    padding-left: 10%;
-    
-    
-}
+   
 nav a {
     
     text-decoration-line: none;
     
 }
-a:visited{
-    color: white;
+a:link {
+  color: white;  
+}
+
+a:visited {
+    color:rgb(238, 229, 229);
+
 }
 
 a:hover {
     color: chartreuse;
-    text-decoration: underline;
+
 }
 a:active{
-    color: rgb(235, 84, 222);
+    color: rgb(228, 12, 210);
 }
 .header p {
     color: yellow;
     font-size: 20px;
-    
+    padding-left: 50px;
 }
 
-.footer {
-    font-size: 20px;
-    padding-top: 40%;
-    color: rgb(209, 197, 213);
+    
+ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
     text-align: center;
+    color: aliceblue;
+    padding-right: 40%;
+    
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 35%;
+    border: 0px solid yellow;
+}
+.font{
+    font-size: 20px;
+    word-spacing: 100px;
+    line-height: 75px;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
 
-}
-table {
-    box-sizing: border-box;
-    padding-left: 50%;
-    
-    
-}
-button {
-    border: 3px solid gray;
-    border: darkblue;
-}
 

@@ -1,8 +1,18 @@
-img{
+.container{
     border: 0px solid red;
-    height: 50%;
-    width: 40%;
-}
-.table{
+    display: flex;
+    justify-content: space-evenly;
 
+}
+
+.image{
+    border: 0px solid red;
+    height: 250px;
+    width: 500px;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration-line: none;
 }
